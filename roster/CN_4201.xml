@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <!--Written by JMRI version 4.14+Rd060e0b on Fri Jan 25 20:24:40 PST 2019-->
+  <locomotive id="CN 4201" fileName="CN_4201.xml" roadNumber="4201" roadName="CN" mfg="Brooks" owner="Lindsay" model="2-10-2 " dccAddress="4201" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2019-01-26T04:24:40Z</dateUpdated>
+    <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="4201" longaddress="yes" />
+      <number>4201</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <values>
+      <decoderDef>
+        <varValue item="Start Volts" value="10" />
+        <varValue item="Accel" value="1" />
+        <varValue item="Decel" value="1" />
+        <varValue item="Headlight Dimmed By" value="0" />
+        <varValue item="Headlight Dimming intensity" value="64" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="Primary Address" value="105" />
+        <varValue item="Extended Address" value="4201" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Power Source Conversion" value="1" />
+        <varValue item="Brake Momentum on DC" value="0" />
+        <varValue item="User ID #1 (0-255)" value="0" />
+        <varValue item="User ID #2 (0-255)" value="0" />
+      </decoderDef>
+      <CVvalue name="2" value="10" />
+      <CVvalue name="3" value="1" />
+      <CVvalue name="4" value="1" />
+      <CVvalue name="51" value="0" />
+      <CVvalue name="52" value="64" />
+      <CVvalue name="1" value="105" />
+      <CVvalue name="17" value="208" />
+      <CVvalue name="18" value="105" />
+      <CVvalue name="29" value="38" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="50" value="0" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 4.10+R419243e on Sun Oct 13 14:41:23 PDT 2019-->
+</locomotive-config>
