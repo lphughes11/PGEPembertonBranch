@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sun Oct 13 16:12:18 PDT 2019-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 20 16:57:31 PDT 2020-->
   <roster>
+    <locomotive id="BC 4619" fileName="BC_46190.xml" roadNumber="4619" roadName="BC Rail" mfg="GE" owner="Lindsay" model="Dash 8-40 CM" dccAddress="4619" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-10-20T23:53:31.475+0000</dateUpdated>
+      <decoder model="LokSound 5 micro DCC" family="ESU LokSound 5" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="4619" longaddress="yes" />
+        <number>4619</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
     <locomotive id="BC 4652" fileName="BC_4652.xml" roadNumber="4652" roadName="BC Rail" mfg="GE" owner="Lindsay" model="C44-9W" dccAddress="4652" comment="Kato" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:34:35Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:34:35.000+0000</dateUpdated>
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="4652" longaddress="yes" />
@@ -12,8 +30,9 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="true">Lights</functionlabel>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Lights</functionlabel>
       </functionlabels>
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -25,17 +44,30 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="BC 717" fileName="BC_717.xml" roadNumber="717" roadName="BC Rail" mfg="MLW" owner="Lindsay" model="C-630" dccAddress="717" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-10-20T23:53:31.475+0000</dateUpdated>
+      <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="717" longaddress="yes" />
+        <number>717</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
     <locomotive id="BC 751" fileName="BC_751.xml" roadNumber="751" roadName="BC Rail" mfg="EMD" owner="Lindsay" model="SD40-2" dccAddress="751" comment="Kato" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:25:37Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:25:37.000+0000</dateUpdated>
       <decoder model="DN163K1C" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="751" longaddress="yes" />
         <number>751</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="CN 3039" fileName="CN_3039.xml" roadNumber="3039" roadName="CN" mfg="MLW" owner="Lindsay" model="RS3" dccAddress="3039" comment="Atlas Mk 1" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:15:22Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:15:22.000+0000</dateUpdated>
       <decoder model="CN-GP" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="3039" longaddress="yes" />
@@ -43,8 +75,9 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="false">Lights</functionlabel>
+        <functionlabel num="0" lockable="false" functionImage="" functionImageSelected="">Lights</functionlabel>
       </functionlabels>
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -57,40 +90,81 @@
       </attributepairs>
     </locomotive>
     <locomotive id="CN 3045" fileName="CN_3045.xml" roadNumber="3045" roadName="CN" mfg="GE" owner="Lindsay" model="ET44AC GEVO" dccAddress="3045" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:17:56Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:17:56.000+0000</dateUpdated>
       <decoder model="LokSound Select direct / micro" family="ESU LokSound Select" comment="" />
       <locoaddress>
         <dcclocoaddress number="3045" longaddress="yes" />
         <number>3045</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="CN 4201" fileName="CN_4201.xml" roadNumber="4201" roadName="CN" mfg="Brooks" owner="Lindsay" model="2-10-2 " dccAddress="4201" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:24:40Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:24:40.000+0000</dateUpdated>
       <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
       <locoaddress>
         <dcclocoaddress number="4201" longaddress="yes" />
         <number>4201</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="CN 9057" fileName="CN_9057.xml" roadNumber="9057" roadName="CN" mfg="EMD" owner="Lindsay" model="F7B" dccAddress="9057" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-10-20T23:53:31.475+0000</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="9057" longaddress="yes" />
+        <number>9057</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="CN 9080" fileName="CN_9080.xml" roadNumber="9080" roadName="CN" mfg="EMD" owner="Lindsay" model="FP7A" dccAddress="9080" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-10-20T23:53:31.475+0000</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="9080" longaddress="yes" />
+        <number>9080</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="CN 9098" fileName="CN_9098.xml" roadNumber="9098" roadName="CN" mfg="EMD" owner="Lindsay" model="FP7A" dccAddress="9098" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-10-20T23:53:31.475+0000</dateUpdated>
+      <decoder model="DN163K0B" family="Series 3 with FX3, silent, readback" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="9098" longaddress="yes" />
+        <number>9098</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="CN 9450" fileName="CN_9450.xml" roadNumber="9540" roadName="CN" mfg="EMD" owner="Lindsay" model="GP-40" dccAddress="9450" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-10-13T21:14:20Z</dateUpdated>
+      <dateUpdated>2019-10-13T21:14:20.000+0000</dateUpdated>
       <decoder model="DN163A0" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="9450" longaddress="yes" />
         <number>9450</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="CP 4066" fileName="CP_4066.xml" roadNumber="4066" roadName="CP" mfg="EMD" owner="Lindsay" model="FP7A " dccAddress="4066" comment="Intermountain" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:36:20Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:36:20.000+0000</dateUpdated>
       <decoder model="IMFP4" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="4066" longaddress="yes" />
         <number>4066</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -103,13 +177,15 @@
       </attributepairs>
     </locomotive>
     <locomotive id="CP 4441" fileName="CP_4441.xml" roadNumber="4441" roadName="CP" mfg="EMD" owner="Lindsay" model="F7B" dccAddress="4441" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:35:21Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:35:21.000+0000</dateUpdated>
       <decoder model="IMF4" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="4441" longaddress="yes" />
         <number>4441</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -122,13 +198,15 @@
       </attributepairs>
     </locomotive>
     <locomotive id="CP 8652" fileName="CP_8652.xml" roadNumber="8652" roadName="CP" mfg="EMD" owner="Lindsay" model="GP9" dccAddress="8652" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:26:24Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:26:24.000+0000</dateUpdated>
       <decoder model="ASD4" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="8652" longaddress="yes" />
         <number>8652</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -141,16 +219,18 @@
       </attributepairs>
     </locomotive>
     <locomotive id="CP 8795" fileName="CP_8795.xml" roadNumber="8795" roadName="CP" mfg="GE" owner="Lindsay" model="ES44AC" dccAddress="8795" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-27T06:13:17Z</dateUpdated>
+      <dateUpdated>2019-01-27T06:13:17.000+0000</dateUpdated>
       <decoder model="DZ126IN" family="Series 6 with FX3, silent, improved BEMF" comment="" />
       <locoaddress>
         <dcclocoaddress number="8795" longaddress="yes" />
         <number>8795</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="CV 3609" fileName="CV_3609.xml" roadNumber="3609" roadName="Central Vermont" mfg="Alco" owner="Lindsay" model="RS11" dccAddress="3609" comment="Atlas" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="F0">
-      <dateUpdated>2019-01-26T21:27:40Z</dateUpdated>
+      <dateUpdated>2019-01-26T21:27:40.000+0000</dateUpdated>
       <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
       <locoaddress>
         <dcclocoaddress number="3609" longaddress="yes" />
@@ -158,8 +238,9 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="false">Light</functionlabel>
+        <functionlabel num="0" lockable="false" functionImage="" functionImageSelected="">Light</functionlabel>
       </functionlabels>
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -172,13 +253,15 @@
       </attributepairs>
     </locomotive>
     <locomotive id="CV 3613" fileName="CV_3613.xml" roadNumber="3613" roadName="Central Vermont" mfg="Alco" owner="Lindsay" model="RS11" dccAddress="3613" comment="Atlas" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T22:43:54Z</dateUpdated>
+      <dateUpdated>2019-01-26T22:43:54.000+0000</dateUpdated>
       <decoder model="AN12A0 by NCE (Part #518299)" family="Atlas N-Scale" comment="" />
       <locoaddress>
         <dcclocoaddress number="3613" longaddress="yes" />
         <number>3613</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -191,7 +274,7 @@
       </attributepairs>
     </locomotive>
     <locomotive id="PGE 551" fileName="PGE_551.xml" roadNumber="551" roadName="PGE" mfg="GE" owner="Lindsay" model="45 Ton" dccAddress="551" comment="Bachmann" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:33:51Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:33:51.000+0000</dateUpdated>
       <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
       <locoaddress>
         <dcclocoaddress number="551" longaddress="yes" />
@@ -199,8 +282,9 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="false">Lights</functionlabel>
+        <functionlabel num="0" lockable="false" functionImage="" functionImageSelected="">Lights</functionlabel>
       </functionlabels>
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -213,7 +297,7 @@
       </attributepairs>
     </locomotive>
     <locomotive id="PGE 555" fileName="PGE_555.xml" roadNumber="555" roadName="PGE" mfg="GE" owner="Lindsay" model="70 Ton" dccAddress="555" comment="Bachmann" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:33:25Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:33:25.000+0000</dateUpdated>
       <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
       <locoaddress>
         <dcclocoaddress number="555" longaddress="yes" />
@@ -221,8 +305,9 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="false">Lights</functionlabel>
+        <functionlabel num="0" lockable="false" functionImage="" functionImageSelected="">Lights</functionlabel>
       </functionlabels>
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -235,16 +320,18 @@
       </attributepairs>
     </locomotive>
     <locomotive id="PGE 565" fileName="PGE_565.xml" roadNumber="565" roadName="PGE" mfg="Alco" owner="Lindsay" model="RS3" dccAddress="565" comment="Bachmann PRR, yet to be painted" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:31:56Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:31:56.000+0000</dateUpdated>
       <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
       <locoaddress>
         <dcclocoaddress number="565" longaddress="yes" />
         <number>565</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="PGE 571" fileName="PGE_571.xml" roadNumber="571" roadName="PGE" mfg="MLW" owner="Lindsay" model="RS3" dccAddress="571" comment=" Atlas Mk 2" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="F0">
-      <dateUpdated>2019-01-26T21:32:38Z</dateUpdated>
+      <dateUpdated>2019-01-26T21:32:38.000+0000</dateUpdated>
       <decoder model="CN" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="571" longaddress="yes" />
@@ -252,8 +339,9 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
       </functionlabels>
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -266,22 +354,26 @@
       </attributepairs>
     </locomotive>
     <locomotive id="PGE 572" fileName="PGE_572.xml" roadNumber="472" roadName="PGE" mfg="MLW" owner="Lindsay" model="RS3" dccAddress="572" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-10-13T23:11:44Z</dateUpdated>
+      <dateUpdated>2019-10-13T23:11:44.000+0000</dateUpdated>
       <decoder model="CN-GP" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="572" longaddress="yes" />
         <number>572</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="PGE 574" fileName="PGE_574.xml" roadNumber="574" roadName="PGE" mfg="MLW" owner="Lindsay" model="RS3" dccAddress="574" comment="Atlas Mk 1" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-27T19:33:04Z</dateUpdated>
+      <dateUpdated>2019-01-27T19:33:04.000+0000</dateUpdated>
       <decoder model="CN-GP" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="574" longaddress="yes" />
         <number>574</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -294,13 +386,15 @@
       </attributepairs>
     </locomotive>
     <locomotive id="PGE 702" fileName="PGE_702.xml" roadNumber="702" roadName="PGE" mfg="Alco" owner="Lindsay" model="C-630" dccAddress="702" comment="Atlas" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:30:06Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:30:06.000+0000</dateUpdated>
       <decoder model="AMD4" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="702" longaddress="yes" />
         <number>702</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -313,13 +407,15 @@
       </attributepairs>
     </locomotive>
     <locomotive id="PGE 704" fileName="PGE_704.xml" roadNumber="704" roadName="PGE" mfg="Alco" owner="Lindsay" model="C-630" dccAddress="704" comment="Atlas" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:29:14Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:29:14.000+0000</dateUpdated>
       <decoder model="AMD4" family="Jan 2012" comment="" />
       <locoaddress>
         <dcclocoaddress number="704" longaddress="yes" />
         <number>704</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -332,13 +428,15 @@
       </attributepairs>
     </locomotive>
     <locomotive id="PGE Mike" fileName="PGE_Mike.xml" roadNumber="165" roadName="PGE" mfg="MLW" owner="Lindsay" model="2-8-2 Mikado" dccAddress="165" comment="Model Power MRC" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:28:32Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:28:32.000+0000</dateUpdated>
       <decoder model="1637 - N Scale - Steam" family="Sound Decoders - N Scale" comment="" />
       <locoaddress>
         <dcclocoaddress number="165" longaddress="yes" />
         <number>165</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -350,17 +448,30 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="PRR 7058" fileName="PRR_7058.xml" roadNumber="7058" roadName="Pennsylvania" mfg="USRA" owner="Lindsay" model="2-10-2" dccAddress="7058" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-10-20T23:53:31.475+0000</dateUpdated>
+      <decoder model="M1" family="June 2007" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="7058" longaddress="yes" />
+        <number>7058</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
     <locomotive id="RDC 11" fileName="RDC_11.xml" roadNumber="BC-11" roadName="PGE" mfg="Budd" owner="Lindsay" model="RDC-1" dccAddress="11" comment="Kato" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2017-03-05T15:58:54Z</dateUpdated>
+      <dateUpdated>2017-03-05T15:58:54.000+0000</dateUpdated>
       <decoder model="DZ143" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="11" longaddress="no" />
         <number>11</number>
         <protocol>dcc_short</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="RDC 23" fileName="RDC_23.xml" roadNumber="BC-23" roadName="PGE" mfg="Budd" owner="Lindsay" model="RDC-2" dccAddress="23" comment="Kato" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2017-03-11T19:24:03Z</dateUpdated>
+      <dateUpdated>2017-03-11T19:24:03.000+0000</dateUpdated>
       <decoder model="DZ143" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="23" longaddress="no" />
@@ -368,8 +479,9 @@
         <protocol>dcc_short</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="true">Lights</functionlabel>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Lights</functionlabel>
       </functionlabels>
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -382,13 +494,15 @@
       </attributepairs>
     </locomotive>
     <locomotive id="RDC 6200" fileName="RDC_6200.xml" roadNumber="6200" roadName="VIA" mfg="Budd" owner="Lindsay" model="RDC-2" dccAddress="6200" comment="Kato" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2017-03-11T19:10:40Z</dateUpdated>
+      <dateUpdated>2017-03-11T19:10:40.000+0000</dateUpdated>
       <decoder model="DZ143" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="6200" longaddress="yes" />
         <number>6200</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -401,13 +515,15 @@
       </attributepairs>
     </locomotive>
     <locomotive id="RDC 9200" fileName="RDC_9200.xml" roadNumber="9200" roadName="CP" mfg="Budd" owner="Lindsay" model="RDC-4" dccAddress="9200" comment="Kato" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T22:59:06Z</dateUpdated>
+      <dateUpdated>2019-01-26T22:59:06.000+0000</dateUpdated>
       <decoder model="DZ143" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="9200" longaddress="yes" />
         <number>9200</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
@@ -420,25 +536,40 @@
       </attributepairs>
     </locomotive>
     <locomotive id="Shay" fileName="Shay.xml" roadNumber="9" roadName="Bloedel Stewart Welch" mfg="Lima" owner="Lindsay" model="" dccAddress="9" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-10-13T20:20:31Z</dateUpdated>
+      <dateUpdated>2020-10-19T00:13:02.655+0000</dateUpdated>
       <decoder model="LokPilot Micro V4.0 DCC" family="ESU LokPilot V4.0" comment="" />
       <locoaddress>
         <dcclocoaddress number="9" longaddress="no" />
         <number>9</number>
         <protocol>dcc_short</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="SP 4292" fileName="SP_4292.xml" roadNumber="4292" roadName="Southern Pacific" mfg="Baldwin" owner="Lindsay" model="4-8-8-2 Cab Forward" dccAddress="4292" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-10-20T23:53:31.475+0000</dateUpdated>
+      <decoder model="DP2X" family="June 2007" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="4292" longaddress="yes" />
+        <number>4292</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="SRY 151" fileName="SRY_151.xml" roadNumber="151" roadName="BC Rail Link" mfg="EMD" owner="Lindsay" model="MP15DC" dccAddress="151" comment="Atlas" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T04:13:29Z</dateUpdated>
+      <dateUpdated>2019-01-26T04:13:29.000+0000</dateUpdated>
       <decoder model="NMP" family="Silent Running w/ Torque Compensation" comment="" />
       <locoaddress>
         <dcclocoaddress number="151" longaddress="yes" />
         <number>151</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="TT Front" fileName="TT_Front.xml" roadNumber="125" roadName="CN" mfg="United Aircraft" owner="Lindsay" model="PDC-28" dccAddress="125" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-10-13T02:10:29Z</dateUpdated>
+      <dateUpdated>2019-10-13T02:10:29.000+0000</dateUpdated>
       <decoder model="LokSound Select direct / micro" family="ESU LokSound Select" comment="" />
       <locoaddress>
         <dcclocoaddress number="125" longaddress="no" />
@@ -446,8 +577,8 @@
         <protocol>dcc_short</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="true">Light</functionlabel>
-        <functionlabel num="2" lockable="false">Horn</functionlabel>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
       </functionlabels>
       <soundlabels>
         <soundlabel num="25">Random sounds</soundlabel>
@@ -455,17 +586,17 @@
         <soundlabel num="27">Gear shift sound</soundlabel>
       </soundlabels>
     </locomotive>
-    <locomotive id="TT Rear" fileName="TT_Rear.xml" roadNumber="150" roadName="CN" mfg="United Aircraft" owner="Lindsay" model="PDC-29" dccAddress="150" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-10-13T02:09:30Z</dateUpdated>
+    <locomotive id="TT Rear" fileName="TT_Rear.xml" roadNumber="150" roadName="CN" mfg="United Aircraft" owner="Lindsay" model="PDC-29" dccAddress="125" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-10-20T23:57:31.363+0000</dateUpdated>
       <decoder model="LokSound Select direct / micro" family="ESU LokSound Select" comment="" />
       <locoaddress>
-        <dcclocoaddress number="150" longaddress="yes" />
-        <number>150</number>
-        <protocol>dcc_long</protocol>
+        <dcclocoaddress number="125" longaddress="no" />
+        <number>125</number>
+        <protocol>dcc_short</protocol>
       </locoaddress>
       <functionlabels>
-        <functionlabel num="0" lockable="true">Light</functionlabel>
-        <functionlabel num="2" lockable="false">Horn</functionlabel>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
       </functionlabels>
       <soundlabels>
         <soundlabel num="25">Random sounds</soundlabel>
@@ -474,13 +605,15 @@
       </soundlabels>
     </locomotive>
     <locomotive id="Via 903" fileName="Via_903.xml" roadNumber="903" roadName="Via" mfg="GE" owner="Lindsay" model="P42 Genesis" dccAddress="903" comment="Kato" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-01-26T22:25:44Z</dateUpdated>
+      <dateUpdated>2019-01-26T22:25:44.000+0000</dateUpdated>
       <decoder model="DN163K0A" family="Series 3 with FX3, silent, readback" comment="" />
       <locoaddress>
         <dcclocoaddress number="903" longaddress="yes" />
         <number>903</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
   </roster>
 </roster-config>
